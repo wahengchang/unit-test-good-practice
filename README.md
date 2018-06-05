@@ -1,7 +1,9 @@
 # unit-test-good-practice
 
-must know skill
- - 
+## Challenge Goal
+ - none dependency
+ - 100% coverage
+ 
 
 ## To run
 ```
