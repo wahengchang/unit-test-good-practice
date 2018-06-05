@@ -1,0 +1,24 @@
+{
+  "name": "unit-test-good-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest.js",
+    "test:coverage": "./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahengchang/unit-test-good-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahengchang/unit-test-good-practice/issues"
+  },
+  "homepage": "https://github.com/wahengchang/unit-test-good-practice#readme",
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
