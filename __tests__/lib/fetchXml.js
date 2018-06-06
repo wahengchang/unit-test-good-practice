@@ -2,6 +2,13 @@ const {fetchXml} = require('../../lib/fetchXml')
 
 describe('fetchXml', ()=>{
     it('should return ', ()=>{
-        return
+      const result = fetchXml('foo')
+        expect(result).toBe(`<note>
+            <1to>Tove</1to>
+            <from>Jani</from>
+            <heading>Reminder</heading>
+            <body>Don't forget me this weekend!</body>
+            <url>foo</url>
+        </note>`)
     })
 })

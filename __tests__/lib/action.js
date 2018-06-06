@@ -2,6 +2,8 @@ const {dispatch} = require('../../lib/action')
 
 describe('dispatch', ()=>{
     it('should return ', ()=>{
-        return
+        dispatch('foo').then(data => 
+            expect(data).toBe('foo')
+        )
     })
 })

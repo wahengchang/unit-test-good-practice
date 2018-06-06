@@ -6,4 +6,14 @@ describe('dataHandler', ()=>{
         const result = dataHandler(mock)
         expect(result).toBe('<tag>foo</tag>')
     })
+
+    it('should return "" when given null parameter', ()=>{
+        const result = dataHandler()
+        expect(result).toBe('')
+    })
+
+    it('should return "" when given null parameter', ()=>{
+        const result = dataHandler({})
+        expect(result).toBe('')
+    })
 })
