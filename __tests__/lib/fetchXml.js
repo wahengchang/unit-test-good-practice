@@ -4,7 +4,7 @@ describe('fetchXml', ()=>{
     it('should return ', ()=>{
       const result = fetchXml('foo')
         expect(result).toBe(`<note>
-            <1to>Tove</1to>
+            <1to>Tove</to>
             <from>Jani</from>
             <heading>Reminder</heading>
             <body>Don't forget me this weekend!</body>
